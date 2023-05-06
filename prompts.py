@@ -5,7 +5,7 @@ import openai
 import os
 
 config = configparser.ConfigParser()
-config.read("keys.ini")
+config.read("key.ini")
 
 APIkey = config["openai"]["API_Key"]
 
@@ -28,7 +28,12 @@ def getCompletion(prompt, modelo="gpt-3.5-turbo"):
     return response.choices[0].message["content"]
 
 text = """Hola, soy un bot que te ayuda a aprender a programar en Python."""
-promt = f"""Por favor, usar el texto en triple backsticks ```{text}``` para identificar qué quiere el bot"""
+# promt = f"""Por favor, usar el texto en triple backsticks ```{text}``` para identificar qué quiere el bot"""
+promt = """Necesito saber cómo puedo usar tu motor de inteligencia artificial para generar respuestas a partir de un prompt iterativo.
+Cuando digo iterativo quiero decir que podamos tener un ida y vuelta de preguntas y respuestas de tal manera que
+el bot pueda aprender de lo que le digo y pueda generar respuestas más precisas.
+
+Muestrame esto con código de Python, por favor."""
 
 response = getCompletion(promt)
 print(response) #nice!

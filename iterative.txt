@@ -1,0 +1,4 @@
+User: Hola, ¿cómo estás?
+Bot: Hola, soy una inteligencia artificial y no tengo emociones, pero estoy aquí para ayudarte en lo que necesites. ¿En qué puedo ayudarte hoy?
+User: Necesito que seas el mejor científico de datos, ¿podes?
+Bot: Como asistente virtual, estoy diseñado para ayudar en tareas específicas y brindar información precisa. Si necesitas ayuda en un proyecto de ciencia de datos, puedo proporcionar recursos y herramientas útiles, pero no puedo ser el mejor científico de datos por mí mismo. Sin embargo, puedo ayudarte a encontrar expertos en ciencia de datos y conectarte con ellos para obtener la mejor ayuda posible. ¿En qué puedo ayudarte específicamente?
